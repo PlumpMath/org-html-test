@@ -33,5 +33,5 @@
   )
 
 (defun generate-html ()
-  (find-file "hi.org")
+  (find-file "index.org")
   (org-html-export-to-html))
